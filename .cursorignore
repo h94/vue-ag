@@ -1,0 +1,35 @@
+# 高 Token 消耗目錄 / 檔案，避免 AI 掃描
+node_modules/
+dist/
+.nuxt/
+.output/
+.nitro/
+.cache/
+.data/
+
+# 日誌檔案
+logs/
+*.log
+
+# 產生的 lock 檔（內容龐大）
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 編譯輸出
+*.min.js
+*.min.css
+
+# 二進位 / 媒體資源
+public/img/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+*.woff
+*.woff2
+*.ttf
+*.eot
